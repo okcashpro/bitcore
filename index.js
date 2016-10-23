@@ -1,5 +1,5 @@
 'use strict';
 
-var bitcore = require('bitcore-lib');
+var okcore = require('okcore-lib');
 
-module.exports = bitcore;
+module.exports = okcore;
