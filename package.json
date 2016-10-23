@@ -1,16 +1,16 @@
 {
-  "name": "bitcore",
+  "name": "okcore",
   "version": "4.1.0",
-  "description": "A platform to build bitcoin and blockchain-based applications.",
-  "author": "BitPay <dev@bitpay.com>",
+  "description": "A platform to build okcash and blockchain-based applications.",
+  "author": "Ok Dev Team <devteam@okcash.co>",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha test/** --recursive",
     "build-deb": "./scripts/build-deb"
   },
   "bin": {
-    "bitcore": "./bin/bitcore",
-    "bitcored": "./bin/bitcored"
+    "okcore": "./bin/okcore",
+    "okcored": "./bin/okcored"
   },
   "contributors": [
     {
@@ -56,10 +56,15 @@
     {
       "name": "Wei Lu",
       "email": "luwei.here@gmail.com"
+    },
+    {
+      "name": "BitPay",
+      "email": "dev@bitpay.com"
     }
   ],
   "keywords": [
-    "bitcoin",
+    "okcash",
+    "ok",
     "transaction",
     "address",
     "p2p",
@@ -76,14 +81,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore.git"
+    "url": "https://github.com/okcashpro/okcore.git"
   },
   "browser": {
     "request": "browser-request"
   },
   "dependencies": {
-    "bitcore-lib": "^0.13.14",
-    "bitcore-node": "~3.1.0",
+    "okcore-lib": "^0.13.14",
+    "okcore-node": "~3.1.0",
     "insight-api": "^0.4.0",
     "insight-ui": "^0.4.0"
   },
