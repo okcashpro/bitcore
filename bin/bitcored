@@ -3,7 +3,7 @@
 'use strict';
 
 var path = require('path');
-var bitcored = require('bitcore-node/lib/cli/bitcored');
+var okcored = require('okcore-node/lib/cli/okcored');
 var servicesPath = path.resolve(__dirname, '../');
-var additionalServices = ['insight-api', 'insight-ui'];
-bitcored(servicesPath, additionalServices);
+var additionalServices = ['ok-insight-api', 'ok-insight-ui'];
+okcored(servicesPath, additionalServices);
