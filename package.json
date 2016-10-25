@@ -89,8 +89,8 @@
   "dependencies": {
     "okcore-lib": "^0.13.14",
     "okcore-node": "~3.1.0",
-    "insight-api": "^0.4.0",
-    "insight-ui": "^0.4.0"
+    "ok-insight-api": "^0.4.0",
+    "ok-insight-ui": "^0.4.0"
   },
   "license": "MIT",
   "devDependencies": {
